@@ -1,6 +1,0 @@
-M
-5 6
-Talbert 115
-F
-3 4
-Capen 110
