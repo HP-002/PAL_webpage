@@ -1,0 +1,192 @@
+* {
+    background-color: #c2c2c2; /* White background */
+    color: #000; /* Black text */
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #c2c2c2; /* White background */
+    color: #000000; /* Black text */
+}
+
+.header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 41, 123); /* Blue background */
+    color: #fff; /* White text */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.772); /* Add shadow */
+}
+
+.left {
+    display: flex;
+    background-color: transparent;
+    justify-content: left;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(230, 230, 230, 0.772); /* Add shadow */
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    background-color: transparent;
+}
+
+.left .title {
+    margin: 0;
+    font-size: 2.5em;
+    color: #fff; /* White text */
+    background-color: transparent;
+}
+
+.left .hp {
+    margin: 0;
+    font-size: 1em;
+    color: #fff; /* White text */
+    background-color: transparent;
+    font-weight: 100;
+}
+
+.right {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right .kd {
+    /* width: 80px; */
+    font-size: 1em;
+    color: #fff; /* White text */
+    background-color: transparent;
+    font-weight: 100;
+    padding: 10px;
+}
+
+.pal-details {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.semester {
+    width: 400px;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff; /* Blue text */
+    margin-bottom: 10px;
+    padding: 15px;
+    background: url('header_background.svg') no-repeat center;
+    background-size: contain;
+}
+
+.schedule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 41, 123); /* Blue background */
+    border: 2px solid rgb(0, 0, 0); /* Black border */
+    border-radius: 4px;
+    margin: 10px;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 0 13px rgba(17, 0, 130, 0.772); /* Add shadow */
+    color: #fff; /* White text */
+}
+
+.schedule:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 13px rgba(17, 0, 130, 0.772); /* Increase shadow on hover */
+}
+
+.other {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.name, .times, li {
+    background-color: transparent;
+    padding: 2px;
+    color: #ffffff; /* Black text */
+}
+
+.name {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 24px;
+}
+
+.times {
+    margin: 0 15px 10px 15px;
+}
+.day {
+    font-weight: 600;
+    background-color: transparent;
+    color: #ffffff; /* Black text */
+}
+
+.session-title {
+    width: 350px;
+    margin: 0 auto 10px auto;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff; /* Blue text */
+    padding: 15px;
+    background: url('header_background.svg') no-repeat center;
+    background-size: contain;
+}
+
+.ws-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.session {
+    margin: 10px;
+    padding: 5px;
+    width: 150px;
+    border: 2px solid #000; /* Black border */
+    border-radius: 4px;
+    background-color: rgb(0, 41, 123); /* Blue background */
+    transition: transform 0.2s ease-in-out;
+    color: #fff; /* White text */
+    box-shadow: 0 0 10px rgba(17, 0, 130, 0.772);
+    text-align: center;
+}
+
+.session-details {
+    background-color: transparent;
+    color: #fff; /* White text */
+    font-size: 18px;
+    font-weight: 600;
+    padding: 2px;
+}
+
+.session:hover {
+    transform: scale(1.1);
+}
+
+.ws {
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    color: #fff; /* White text */
+}

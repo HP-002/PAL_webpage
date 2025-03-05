@@ -50,7 +50,7 @@ function createSession(date, file, solution) {
     blankWS.textContent = 'Blank WS';
 
     let solutionWS = document.createElement('a');
-    solutionWS.className = 'ws solution';
+    solutionWS.className = 'ws solutions';
     solutionWS.href = solution;
     solutionWS.textContent = 'Solution';
 
